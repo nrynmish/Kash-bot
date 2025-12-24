@@ -211,7 +211,7 @@ private void reply(String chatId, String text) {
 
  @Override
  public String getBotToken() {
-         return "8519572294:AAHqz9Sm_iJEAXp8UqTcCP8y31X6sA3ZrXA";
+         return System.getenv("BOT_TOKEN");
  }
 
  public static void main(String[] args) throws TelegramApiException {
